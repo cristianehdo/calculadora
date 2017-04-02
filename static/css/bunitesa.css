@@ -4,10 +4,53 @@ font-style: normal;
 font-weight: lighter;
 src: local('Helvetica Neue LT Std 45 Light'), url('../fonts/HelveticaNeueLTStdLt.woff') format('woff');
 }
-
+div#conteudo {
+	margin: 0 auto;
+	width: 800px;
+}
+.escolhatelefone {
+  background: #020d14;
+  background-image: linear-gradient(to bottom, #020d14, #666666);
+  border-radius: 28px;
+  color: #ffffff;
+  font-size: 13px;
+  padding: 9px 33px 8px 20px;
+  text-decoration: none;
+}
+div#telefone {
+	height: 548px;
+    width: 251px;
+   	margin: 20px auto;
+    background-image: url("../images/iphonerosa.png");
+	background-repeat: no-repeat;
+	background-size: 256px;	
+}
+div#calculadora {
+	width: 258px;
+    height: 550px;
+    position: relative;
+    top: -3px;
+}
+div#display {
+	border: 3px solid black;
+	width: 185px;
+	height: 51px;
+	text-align: right;
+	padding: 55px 13px 1px 13px;
+	font-size: 53px; 
+	background-color: #202020;
+	color: white;
+	letter-spacing: 1px;
+	position: relative;
+	top: 67px;
+    left: 21px;
+}
 table#teclado {
-	border: 1px solid black;
+	border: 3px solid black;
 	border-collapse: collapse;
+	position: relative;
+    top: 67px;
+    left: 21px;
 }
 #teclado td {
 	width: 50px; 
@@ -46,24 +89,8 @@ td#zero {
 	text-align: left;
 	padding-left: 19px;
 }
-div#display {
-	border: 1px solid black;
-	width: 185px;
-	height: 25px;
-	text-align: right;
-	padding: 45px 13px 1px 13px;
-	font-size: 27px; 
-	background-color: #202020;
-	color: white;
-	letter-spacing: 1px;
-}
 body {
 	font-family: 'Helvetica Neue LT Std 45 Light';
 	font-size: 21px;
 	text-align: center;
-}
-div#calculadora {
-	padding-left: 50%;
-    margin-left: -111px;
-    margin-top: 91px;
 }
