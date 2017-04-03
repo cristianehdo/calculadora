@@ -1,0 +1,44 @@
+@font-face {
+font-family: 'Helvetica Neue LT Std 45 Light';
+font-style: normal;
+font-weight: lighter;
+src: local('Helvetica Neue LT Std 45 Light'), url('../fonts/HelveticaNeueLTStdLt.woff') format('woff');
+}
+body {
+	font-family: 'Helvetica Neue LT Std 45 Light';
+	font-size: 18px;
+	text-align: center;
+}
+
+.escolhacalculadora {
+  background: #020d14;
+  background-image: linear-gradient(to bottom, #020d14, #666666);
+  border-radius: 28px;
+  color: #ffffff;
+  font-size: 13px;
+  padding: 9px 33px 8px 20px;
+  text-decoration: none;
+}
+div#conteudo {
+	margin: 0 auto;
+	width: 800px;
+}
+div#telefone {
+   	margin: 20px auto;
+}   	
+div#calculadora {
+	margin: 0 auto;
+}
+div#horas {
+    text-align: center;
+    margin: 0 auto;
+}
+div#display {
+	margin: 0 auto;
+	text-align: right;
+	letter-spacing: 1px;
+}
+#teclado {
+	border-collapse: collapse;
+	margin: 0 auto;
+}

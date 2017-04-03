@@ -3,20 +3,25 @@
     <head>
         <title>Comparing calculator</title>
         <script type="application/javascript" src="static/js/script.js"></script>
-        <link href="static/css/bunitesa.css" rel="stylesheet" type="text/css">
+        <link href="static/css/comum.css" rel="stylesheet" type="text/css">
+        <link href="static/css/google.css" rel="stylesheet" type="text/css">
+        <!-- <link href="static/css/ios.css" rel="stylesheet" type="text/css"> -->
     </head>
     <body>
         <div id="conteudo">
             <h3>Comparing phone's calculator</h3>
-            <button class="escolhatelefone" type="button">Iphone SE</button>
-            <button class="escolhatelefone" type="button">Sansung Galaxy s8</button>
+            <button class="escolhacalculadora" type="button">IOS</button>
+            <button class="escolhacalculadora" type="button">Google</button>
             <div id="telefone">
                 <div id="calculadora">
+                    <div id="horas">
+                    10:00
+                    </div>
                     <div id="display">
                     0
                     </div>
                     <table id="teclado">
-                        <tr>
+                        <tr class="apenasios">
                             <td class="operacaoespecial">AC</td>
                             <td class="operacaoespecial">+/-</td>
                             <td class="operacaoespecial">%</td>
@@ -41,7 +46,8 @@
                             <td id="adicao" class="operacao"></td>
                         </tr>
                         <tr>
-                            <td colspan="2" id="zero">0</td>
+                            <td id="zero">0</td>
+                            <td id="zero2"></td>
                             <td>,</td>
                             <td id="igual" class="operacao"></td>
                         </tr>

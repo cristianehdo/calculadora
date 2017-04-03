@@ -1,0 +1,39 @@
+
+div#telefone {
+    background-image: url("../images/samsung.png");
+	background-repeat: no-repeat;
+	background-size: 256px;	
+	height: 548px;
+    width: 254px;
+}
+div#display { 
+	background-color: #FFFFFF;
+	color: black;
+	border: 1px solid white;
+}
+#teclado td {
+	width: 50px; 
+	height: 50px;	
+	background-color: #000000;
+	text-align: center;
+	border: no border;
+	color: white;
+}
+#teclado td.operacao {
+	background-color: #212524;
+	color: #FFFFFF;
+}
+.apenasios {
+	display: none;
+}
+#horas {
+	background: #4BFFD1;
+	position: relative;
+    top: 61px;
+}
+div#calculadora {
+	width: 258px;
+    height: 550px;
+    position: relative;
+    top: -3px;
+}
