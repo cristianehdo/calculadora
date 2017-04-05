@@ -11,13 +11,16 @@ body {
 }
 
 .escolhacalculadora {
+  width: 99px;
+  height: 35px;
   background: #020d14;
   background-image: linear-gradient(to bottom, #020d14, #666666);
   border-radius: 28px;
   color: #ffffff;
   font-size: 13px;
-  padding: 9px 33px 8px 20px;
+  /*padding: 9px 33px 8px 20px;*/
   text-decoration: none;
+  text-align: center;
 }
 div#conteudo {
 	margin: 0 auto;
@@ -32,11 +35,14 @@ div#calculadora {
 div#horas {
     text-align: center;
     margin: 0 auto;
+    font-size: 10px;
+    font-weight: bold;
 }
-div#display {
+table#display {
 	margin: 0 auto;
 	text-align: right;
 	letter-spacing: 1px;
+	padding-right: 6px;
 }
 #teclado {
 	border-collapse: collapse;
